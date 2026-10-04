@@ -1,0 +1,22 @@
+pub fn hanoi(n: i32, from: i32, to: i32, via: i32, moves: &mut Vec<(i32, i32)>) {
+    // =========================================================================
+    // 🎯 YOUR MISSION: IMPLEMENT THIS METHOD (hanoi)!
+    // Follow the Socratic hints and questions in the comments above.
+    // =========================================================================
+    todo!("Implement hanoi");
+}
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn hanoi_simple() {
+        let correct_solution: Vec<(i32, i32)> =
+            vec![(1, 3), (1, 2), (3, 2), (1, 3), (2, 1), (2, 3), (1, 3)];
+        let mut our_solution: Vec<(i32, i32)> = Vec::new();
+        hanoi(3, 1, 3, 2, &mut our_solution);
+        assert_eq!(correct_solution, our_solution);
+    }
+}

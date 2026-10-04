@@ -1,0 +1,2760 @@
+[
+  {
+    "slug": "all_combination_of_size_k",
+    "category": "backtracking",
+    "title": "The All-Star Squad Selection: Combinations of Size K",
+    "difficulty": "Medium",
+    "path": "backtracking/all_combination_of_size_k"
+  },
+  {
+    "slug": "graph_coloring",
+    "category": "backtracking",
+    "title": "5G Tower Frequency Allocation: Graph Coloring",
+    "difficulty": "Medium",
+    "path": "backtracking/graph_coloring"
+  },
+  {
+    "slug": "hamiltonian_cycle",
+    "category": "backtracking",
+    "title": "The Traveling Courier: Hamiltonian Cycle",
+    "difficulty": "Medium",
+    "path": "backtracking/hamiltonian_cycle"
+  },
+  {
+    "slug": "knight_tour",
+    "category": "backtracking",
+    "title": "The Midnight Chess Inspector: Knight's Tour",
+    "difficulty": "Medium",
+    "path": "backtracking/knight_tour"
+  },
+  {
+    "slug": "n_queens",
+    "category": "backtracking",
+    "title": "The Royal Peace Treaty: N-Queens",
+    "difficulty": "Medium",
+    "path": "backtracking/n_queens"
+  },
+  {
+    "slug": "parentheses_generator",
+    "category": "backtracking",
+    "title": "Architect's Balanced Bridges: Parentheses Generator",
+    "difficulty": "Medium",
+    "path": "backtracking/parentheses_generator"
+  },
+  {
+    "slug": "permutations",
+    "category": "backtracking",
+    "title": "The Vault Pin-Code: Distinct Permutations",
+    "difficulty": "Medium",
+    "path": "backtracking/permutations"
+  },
+  {
+    "slug": "rat_in_maze",
+    "category": "backtracking",
+    "title": "Laboratory Cheese Heist: Rat in a Maze",
+    "difficulty": "Medium",
+    "path": "backtracking/rat_in_maze"
+  },
+  {
+    "slug": "subset_sum",
+    "category": "backtracking",
+    "title": "Cash Register Audit: Subset Sum",
+    "difficulty": "Medium",
+    "path": "backtracking/subset_sum"
+  },
+  {
+    "slug": "sudoku",
+    "category": "backtracking",
+    "title": "The Locked Grid Vault: Sudoku Solver",
+    "difficulty": "Medium",
+    "path": "backtracking/sudoku"
+  },
+  {
+    "slug": "fast_factorial",
+    "category": "big_integer",
+    "title": "Fast Factorial",
+    "difficulty": "Medium",
+    "path": "big_integer/fast_factorial"
+  },
+  {
+    "slug": "multiply",
+    "category": "big_integer",
+    "title": "Multiply",
+    "difficulty": "Medium",
+    "path": "big_integer/multiply"
+  },
+  {
+    "slug": "poly1305",
+    "category": "big_integer",
+    "title": "Poly1305",
+    "difficulty": "Medium",
+    "path": "big_integer/poly1305"
+  },
+  {
+    "slug": "binary_coded_decimal",
+    "category": "bit_manipulation",
+    "title": "Binary Coded Decimal",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/binary_coded_decimal"
+  },
+  {
+    "slug": "binary_count_trailing_zeros",
+    "category": "bit_manipulation",
+    "title": "Binary Count Trailing Zeros",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/binary_count_trailing_zeros"
+  },
+  {
+    "slug": "binary_shifts",
+    "category": "bit_manipulation",
+    "title": "Binary Shifts",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/binary_shifts"
+  },
+  {
+    "slug": "counting_bits",
+    "category": "bit_manipulation",
+    "title": "Counting Bits",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/counting_bits"
+  },
+  {
+    "slug": "find_missing_number",
+    "category": "bit_manipulation",
+    "title": "Find Missing Number",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/find_missing_number"
+  },
+  {
+    "slug": "find_previous_power_of_two",
+    "category": "bit_manipulation",
+    "title": "Find Previous Power Of Two",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/find_previous_power_of_two"
+  },
+  {
+    "slug": "find_unique_number",
+    "category": "bit_manipulation",
+    "title": "Find Unique Number",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/find_unique_number"
+  },
+  {
+    "slug": "hamming_distance",
+    "category": "bit_manipulation",
+    "title": "Hamming Distance",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/hamming_distance"
+  },
+  {
+    "slug": "highest_set_bit",
+    "category": "bit_manipulation",
+    "title": "Highest Set Bit",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/highest_set_bit"
+  },
+  {
+    "slug": "is_power_of_two",
+    "category": "bit_manipulation",
+    "title": "Is Power Of Two",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/is_power_of_two"
+  },
+  {
+    "slug": "n_bits_gray_code",
+    "category": "bit_manipulation",
+    "title": "N Bits Gray Code",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/n_bits_gray_code"
+  },
+  {
+    "slug": "reverse_bits",
+    "category": "bit_manipulation",
+    "title": "Reverse Bits",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/reverse_bits"
+  },
+  {
+    "slug": "rightmost_set_bit",
+    "category": "bit_manipulation",
+    "title": "Rightmost Set Bit",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/rightmost_set_bit"
+  },
+  {
+    "slug": "sum_of_two_integers",
+    "category": "bit_manipulation",
+    "title": "Sum Of Two Integers",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/sum_of_two_integers"
+  },
+  {
+    "slug": "swap_odd_even_bits",
+    "category": "bit_manipulation",
+    "title": "Swap Odd Even Bits",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/swap_odd_even_bits"
+  },
+  {
+    "slug": "twos_complement",
+    "category": "bit_manipulation",
+    "title": "Twos Complement",
+    "difficulty": "Medium",
+    "path": "bit_manipulation/twos_complement"
+  },
+  {
+    "slug": "aes",
+    "category": "ciphers",
+    "title": "Aes",
+    "difficulty": "Medium",
+    "path": "ciphers/aes"
+  },
+  {
+    "slug": "affine_cipher",
+    "category": "ciphers",
+    "title": "Affine Cipher",
+    "difficulty": "Medium",
+    "path": "ciphers/affine_cipher"
+  },
+  {
+    "slug": "another_rot13",
+    "category": "ciphers",
+    "title": "Another Rot13",
+    "difficulty": "Medium",
+    "path": "ciphers/another_rot13"
+  },
+  {
+    "slug": "baconian_cipher",
+    "category": "ciphers",
+    "title": "Baconian Cipher",
+    "difficulty": "Medium",
+    "path": "ciphers/baconian_cipher"
+  },
+  {
+    "slug": "base16",
+    "category": "ciphers",
+    "title": "Base16",
+    "difficulty": "Medium",
+    "path": "ciphers/base16"
+  },
+  {
+    "slug": "base32",
+    "category": "ciphers",
+    "title": "Base32",
+    "difficulty": "Medium",
+    "path": "ciphers/base32"
+  },
+  {
+    "slug": "base64",
+    "category": "ciphers",
+    "title": "Base64",
+    "difficulty": "Medium",
+    "path": "ciphers/base64"
+  },
+  {
+    "slug": "base85",
+    "category": "ciphers",
+    "title": "Base85",
+    "difficulty": "Medium",
+    "path": "ciphers/base85"
+  },
+  {
+    "slug": "caesar",
+    "category": "ciphers",
+    "title": "Caesar",
+    "difficulty": "Medium",
+    "path": "ciphers/caesar"
+  },
+  {
+    "slug": "chacha",
+    "category": "ciphers",
+    "title": "Chacha",
+    "difficulty": "Medium",
+    "path": "ciphers/chacha"
+  },
+  {
+    "slug": "diffie_hellman",
+    "category": "ciphers",
+    "title": "Diffie Hellman",
+    "difficulty": "Medium",
+    "path": "ciphers/diffie_hellman"
+  },
+  {
+    "slug": "gronsfeld",
+    "category": "ciphers",
+    "title": "Gronsfeld",
+    "difficulty": "Medium",
+    "path": "ciphers/gronsfeld"
+  },
+  {
+    "slug": "hill_cipher",
+    "category": "ciphers",
+    "title": "Hill Cipher",
+    "difficulty": "Medium",
+    "path": "ciphers/hill_cipher"
+  },
+  {
+    "slug": "kernighan",
+    "category": "ciphers",
+    "title": "Kernighan",
+    "difficulty": "Medium",
+    "path": "ciphers/kernighan"
+  },
+  {
+    "slug": "morse_code",
+    "category": "ciphers",
+    "title": "Morse Code",
+    "difficulty": "Medium",
+    "path": "ciphers/morse_code"
+  },
+  {
+    "slug": "polybius",
+    "category": "ciphers",
+    "title": "Polybius",
+    "difficulty": "Medium",
+    "path": "ciphers/polybius"
+  },
+  {
+    "slug": "rail_fence",
+    "category": "ciphers",
+    "title": "Rail Fence",
+    "difficulty": "Medium",
+    "path": "ciphers/rail_fence"
+  },
+  {
+    "slug": "rot13",
+    "category": "ciphers",
+    "title": "Rot13",
+    "difficulty": "Medium",
+    "path": "ciphers/rot13"
+  },
+  {
+    "slug": "rsa_cipher",
+    "category": "ciphers",
+    "title": "Rsa Cipher",
+    "difficulty": "Medium",
+    "path": "ciphers/rsa_cipher"
+  },
+  {
+    "slug": "salsa",
+    "category": "ciphers",
+    "title": "Salsa",
+    "difficulty": "Medium",
+    "path": "ciphers/salsa"
+  },
+  {
+    "slug": "tea",
+    "category": "ciphers",
+    "title": "Tea",
+    "difficulty": "Medium",
+    "path": "ciphers/tea"
+  },
+  {
+    "slug": "theoretical_rot13",
+    "category": "ciphers",
+    "title": "Theoretical Rot13",
+    "difficulty": "Medium",
+    "path": "ciphers/theoretical_rot13"
+  },
+  {
+    "slug": "transposition",
+    "category": "ciphers",
+    "title": "Transposition",
+    "difficulty": "Medium",
+    "path": "ciphers/transposition"
+  },
+  {
+    "slug": "trifid",
+    "category": "ciphers",
+    "title": "Trifid",
+    "difficulty": "Medium",
+    "path": "ciphers/trifid"
+  },
+  {
+    "slug": "vernam",
+    "category": "ciphers",
+    "title": "Vernam",
+    "difficulty": "Medium",
+    "path": "ciphers/vernam"
+  },
+  {
+    "slug": "vigenere",
+    "category": "ciphers",
+    "title": "Vigenere",
+    "difficulty": "Medium",
+    "path": "ciphers/vigenere"
+  },
+  {
+    "slug": "xor",
+    "category": "ciphers",
+    "title": "Xor",
+    "difficulty": "Medium",
+    "path": "ciphers/xor"
+  },
+  {
+    "slug": "burrows_wheeler_transform",
+    "category": "compression",
+    "title": "Burrows Wheeler Transform",
+    "difficulty": "Medium",
+    "path": "compression/burrows_wheeler_transform"
+  },
+  {
+    "slug": "huffman_encoding",
+    "category": "compression",
+    "title": "Huffman Encoding",
+    "difficulty": "Medium",
+    "path": "compression/huffman_encoding"
+  },
+  {
+    "slug": "lz77",
+    "category": "compression",
+    "title": "Lz77",
+    "difficulty": "Medium",
+    "path": "compression/lz77"
+  },
+  {
+    "slug": "move_to_front",
+    "category": "compression",
+    "title": "Move To Front",
+    "difficulty": "Medium",
+    "path": "compression/move_to_front"
+  },
+  {
+    "slug": "peak_signal_to_noise_ratio",
+    "category": "compression",
+    "title": "Peak Signal To Noise Ratio",
+    "difficulty": "Medium",
+    "path": "compression/peak_signal_to_noise_ratio"
+  },
+  {
+    "slug": "run_length_encoding",
+    "category": "compression",
+    "title": "Run Length Encoding",
+    "difficulty": "Medium",
+    "path": "compression/run_length_encoding"
+  },
+  {
+    "slug": "binary_to_decimal",
+    "category": "conversions",
+    "title": "Binary To Decimal",
+    "difficulty": "Medium",
+    "path": "conversions/binary_to_decimal"
+  },
+  {
+    "slug": "binary_to_hexadecimal",
+    "category": "conversions",
+    "title": "Binary To Hexadecimal",
+    "difficulty": "Medium",
+    "path": "conversions/binary_to_hexadecimal"
+  },
+  {
+    "slug": "binary_to_octal",
+    "category": "conversions",
+    "title": "Binary To Octal",
+    "difficulty": "Medium",
+    "path": "conversions/binary_to_octal"
+  },
+  {
+    "slug": "decimal_to_binary",
+    "category": "conversions",
+    "title": "Decimal To Binary",
+    "difficulty": "Medium",
+    "path": "conversions/decimal_to_binary"
+  },
+  {
+    "slug": "decimal_to_hexadecimal",
+    "category": "conversions",
+    "title": "Decimal To Hexadecimal",
+    "difficulty": "Medium",
+    "path": "conversions/decimal_to_hexadecimal"
+  },
+  {
+    "slug": "decimal_to_octal",
+    "category": "conversions",
+    "title": "Decimal To Octal",
+    "difficulty": "Medium",
+    "path": "conversions/decimal_to_octal"
+  },
+  {
+    "slug": "energy",
+    "category": "conversions",
+    "title": "Energy",
+    "difficulty": "Medium",
+    "path": "conversions/energy"
+  },
+  {
+    "slug": "hexadecimal_to_binary",
+    "category": "conversions",
+    "title": "Hexadecimal To Binary",
+    "difficulty": "Medium",
+    "path": "conversions/hexadecimal_to_binary"
+  },
+  {
+    "slug": "hexadecimal_to_decimal",
+    "category": "conversions",
+    "title": "Hexadecimal To Decimal",
+    "difficulty": "Medium",
+    "path": "conversions/hexadecimal_to_decimal"
+  },
+  {
+    "slug": "hexadecimal_to_octal",
+    "category": "conversions",
+    "title": "Hexadecimal To Octal",
+    "difficulty": "Medium",
+    "path": "conversions/hexadecimal_to_octal"
+  },
+  {
+    "slug": "ipv4_conversion",
+    "category": "conversions",
+    "title": "Ipv4 Conversion",
+    "difficulty": "Medium",
+    "path": "conversions/ipv4_conversion"
+  },
+  {
+    "slug": "length_conversion",
+    "category": "conversions",
+    "title": "Length Conversion",
+    "difficulty": "Medium",
+    "path": "conversions/length_conversion"
+  },
+  {
+    "slug": "octal_to_binary",
+    "category": "conversions",
+    "title": "Octal To Binary",
+    "difficulty": "Medium",
+    "path": "conversions/octal_to_binary"
+  },
+  {
+    "slug": "octal_to_decimal",
+    "category": "conversions",
+    "title": "Octal To Decimal",
+    "difficulty": "Medium",
+    "path": "conversions/octal_to_decimal"
+  },
+  {
+    "slug": "octal_to_hexadecimal",
+    "category": "conversions",
+    "title": "Octal To Hexadecimal",
+    "difficulty": "Medium",
+    "path": "conversions/octal_to_hexadecimal"
+  },
+  {
+    "slug": "order_of_magnitude_conversion",
+    "category": "conversions",
+    "title": "Order Of Magnitude Conversion",
+    "difficulty": "Medium",
+    "path": "conversions/order_of_magnitude_conversion"
+  },
+  {
+    "slug": "pressure",
+    "category": "conversions",
+    "title": "Pressure",
+    "difficulty": "Medium",
+    "path": "conversions/pressure"
+  },
+  {
+    "slug": "rectangular_to_polar",
+    "category": "conversions",
+    "title": "Rectangular To Polar",
+    "difficulty": "Medium",
+    "path": "conversions/rectangular_to_polar"
+  },
+  {
+    "slug": "rgb_cmyk_conversion",
+    "category": "conversions",
+    "title": "Rgb Cmyk Conversion",
+    "difficulty": "Medium",
+    "path": "conversions/rgb_cmyk_conversion"
+  },
+  {
+    "slug": "rgb_hsv_conversion",
+    "category": "conversions",
+    "title": "Rgb Hsv Conversion",
+    "difficulty": "Medium",
+    "path": "conversions/rgb_hsv_conversion"
+  },
+  {
+    "slug": "roman_numerals",
+    "category": "conversions",
+    "title": "Roman Numerals",
+    "difficulty": "Medium",
+    "path": "conversions/roman_numerals"
+  },
+  {
+    "slug": "speed",
+    "category": "conversions",
+    "title": "Speed",
+    "difficulty": "Medium",
+    "path": "conversions/speed"
+  },
+  {
+    "slug": "temperature",
+    "category": "conversions",
+    "title": "Temperature",
+    "difficulty": "Medium",
+    "path": "conversions/temperature"
+  },
+  {
+    "slug": "time",
+    "category": "conversions",
+    "title": "Time",
+    "difficulty": "Medium",
+    "path": "conversions/time"
+  },
+  {
+    "slug": "volume",
+    "category": "conversions",
+    "title": "Volume",
+    "difficulty": "Medium",
+    "path": "conversions/volume"
+  },
+  {
+    "slug": "weight",
+    "category": "conversions",
+    "title": "Weight",
+    "difficulty": "Medium",
+    "path": "conversions/weight"
+  },
+  {
+    "slug": "avl_tree",
+    "category": "data_structures",
+    "title": "Avl Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/avl_tree"
+  },
+  {
+    "slug": "b_tree",
+    "category": "data_structures",
+    "title": "B Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/b_tree"
+  },
+  {
+    "slug": "binary_search_tree",
+    "category": "data_structures",
+    "title": "Binary Search Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/binary_search_tree"
+  },
+  {
+    "slug": "fenwick_tree",
+    "category": "data_structures",
+    "title": "Fenwick Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/fenwick_tree"
+  },
+  {
+    "slug": "floyds_algorithm",
+    "category": "data_structures",
+    "title": "Floyds Algorithm",
+    "difficulty": "Medium",
+    "path": "data_structures/floyds_algorithm"
+  },
+  {
+    "slug": "graph",
+    "category": "data_structures",
+    "title": "Graph",
+    "difficulty": "Medium",
+    "path": "data_structures/graph"
+  },
+  {
+    "slug": "hash_table",
+    "category": "data_structures",
+    "title": "Hash Table",
+    "difficulty": "Medium",
+    "path": "data_structures/hash_table"
+  },
+  {
+    "slug": "heap",
+    "category": "data_structures",
+    "title": "Heap",
+    "difficulty": "Medium",
+    "path": "data_structures/heap"
+  },
+  {
+    "slug": "lazy_segment_tree",
+    "category": "data_structures",
+    "title": "Lazy Segment Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/lazy_segment_tree"
+  },
+  {
+    "slug": "linked_list",
+    "category": "data_structures",
+    "title": "Linked List",
+    "difficulty": "Medium",
+    "path": "data_structures/linked_list"
+  },
+  {
+    "slug": "bloom_filter",
+    "category": "data_structures/probabilistic",
+    "title": "Bloom Filter",
+    "difficulty": "Medium",
+    "path": "data_structures/probabilistic/bloom_filter"
+  },
+  {
+    "slug": "count_min_sketch",
+    "category": "data_structures/probabilistic",
+    "title": "Count Min Sketch",
+    "difficulty": "Medium",
+    "path": "data_structures/probabilistic/count_min_sketch"
+  },
+  {
+    "slug": "queue",
+    "category": "data_structures",
+    "title": "Queue",
+    "difficulty": "Medium",
+    "path": "data_structures/queue"
+  },
+  {
+    "slug": "range_minimum_query",
+    "category": "data_structures",
+    "title": "Range Minimum Query",
+    "difficulty": "Medium",
+    "path": "data_structures/range_minimum_query"
+  },
+  {
+    "slug": "rb_tree",
+    "category": "data_structures",
+    "title": "Rb Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/rb_tree"
+  },
+  {
+    "slug": "segment_tree",
+    "category": "data_structures",
+    "title": "Segment Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/segment_tree"
+  },
+  {
+    "slug": "segment_tree_recursive",
+    "category": "data_structures",
+    "title": "Segment Tree Recursive",
+    "difficulty": "Medium",
+    "path": "data_structures/segment_tree_recursive"
+  },
+  {
+    "slug": "skip_list",
+    "category": "data_structures",
+    "title": "Skip List",
+    "difficulty": "Medium",
+    "path": "data_structures/skip_list"
+  },
+  {
+    "slug": "stack_using_singly_linked_list",
+    "category": "data_structures",
+    "title": "Stack Using Singly Linked List",
+    "difficulty": "Medium",
+    "path": "data_structures/stack_using_singly_linked_list"
+  },
+  {
+    "slug": "treap",
+    "category": "data_structures",
+    "title": "Treap",
+    "difficulty": "Medium",
+    "path": "data_structures/treap"
+  },
+  {
+    "slug": "trie",
+    "category": "data_structures",
+    "title": "Trie",
+    "difficulty": "Medium",
+    "path": "data_structures/trie"
+  },
+  {
+    "slug": "union_find",
+    "category": "data_structures",
+    "title": "Union Find",
+    "difficulty": "Medium",
+    "path": "data_structures/union_find"
+  },
+  {
+    "slug": "veb_tree",
+    "category": "data_structures",
+    "title": "Veb Tree",
+    "difficulty": "Medium",
+    "path": "data_structures/veb_tree"
+  },
+  {
+    "slug": "catalan_numbers",
+    "category": "dynamic_programming",
+    "title": "Catalan Numbers",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/catalan_numbers"
+  },
+  {
+    "slug": "coin_change",
+    "category": "dynamic_programming",
+    "title": "Coin Change",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/coin_change"
+  },
+  {
+    "slug": "egg_dropping",
+    "category": "dynamic_programming",
+    "title": "Egg Dropping",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/egg_dropping"
+  },
+  {
+    "slug": "fibonacci",
+    "category": "dynamic_programming",
+    "title": "Fibonacci",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/fibonacci"
+  },
+  {
+    "slug": "fractional_knapsack",
+    "category": "dynamic_programming",
+    "title": "Fractional Knapsack",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/fractional_knapsack"
+  },
+  {
+    "slug": "integer_partition",
+    "category": "dynamic_programming",
+    "title": "Integer Partition",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/integer_partition"
+  },
+  {
+    "slug": "is_subsequence",
+    "category": "dynamic_programming",
+    "title": "Is Subsequence",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/is_subsequence"
+  },
+  {
+    "slug": "knapsack",
+    "category": "dynamic_programming",
+    "title": "Knapsack",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/knapsack"
+  },
+  {
+    "slug": "longest_common_subsequence",
+    "category": "dynamic_programming",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/longest_common_subsequence"
+  },
+  {
+    "slug": "longest_common_substring",
+    "category": "dynamic_programming",
+    "title": "Longest Common Substring",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/longest_common_substring"
+  },
+  {
+    "slug": "longest_continuous_increasing_subsequence",
+    "category": "dynamic_programming",
+    "title": "Longest Continuous Increasing Subsequence",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/longest_continuous_increasing_subsequence"
+  },
+  {
+    "slug": "longest_increasing_subsequence",
+    "category": "dynamic_programming",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/longest_increasing_subsequence"
+  },
+  {
+    "slug": "matrix_chain_multiply",
+    "category": "dynamic_programming",
+    "title": "Matrix Chain Multiply",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/matrix_chain_multiply"
+  },
+  {
+    "slug": "maximal_square",
+    "category": "dynamic_programming",
+    "title": "Maximal Square",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/maximal_square"
+  },
+  {
+    "slug": "maximum_subarray",
+    "category": "dynamic_programming",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/maximum_subarray"
+  },
+  {
+    "slug": "minimum_cost_path",
+    "category": "dynamic_programming",
+    "title": "Minimum Cost Path",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/minimum_cost_path"
+  },
+  {
+    "slug": "optimal_bst",
+    "category": "dynamic_programming",
+    "title": "Optimal Bst",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/optimal_bst"
+  },
+  {
+    "slug": "palindrome_partitioning",
+    "category": "dynamic_programming",
+    "title": "Palindrome Partitioning",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/palindrome_partitioning"
+  },
+  {
+    "slug": "rod_cutting",
+    "category": "dynamic_programming",
+    "title": "Rod Cutting",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/rod_cutting"
+  },
+  {
+    "slug": "smith_waterman",
+    "category": "dynamic_programming",
+    "title": "Smith Waterman",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/smith_waterman"
+  },
+  {
+    "slug": "snail",
+    "category": "dynamic_programming",
+    "title": "Snail",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/snail"
+  },
+  {
+    "slug": "subset_generation",
+    "category": "dynamic_programming",
+    "title": "Subset Generation",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/subset_generation"
+  },
+  {
+    "slug": "subset_sum",
+    "category": "dynamic_programming",
+    "title": "Cash Register Audit: Subset Sum",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/subset_sum"
+  },
+  {
+    "slug": "task_assignment",
+    "category": "dynamic_programming",
+    "title": "Task Assignment",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/task_assignment"
+  },
+  {
+    "slug": "trapped_rainwater",
+    "category": "dynamic_programming",
+    "title": "Trapped Rainwater",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/trapped_rainwater"
+  },
+  {
+    "slug": "word_break",
+    "category": "dynamic_programming",
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "path": "dynamic_programming/word_break"
+  },
+  {
+    "slug": "depreciation",
+    "category": "financial",
+    "title": "Depreciation",
+    "difficulty": "Medium",
+    "path": "financial/depreciation"
+  },
+  {
+    "slug": "equated_monthly_installments",
+    "category": "financial",
+    "title": "Equated Monthly Installments",
+    "difficulty": "Medium",
+    "path": "financial/equated_monthly_installments"
+  },
+  {
+    "slug": "exponential_moving_average",
+    "category": "financial",
+    "title": "Exponential Moving Average",
+    "difficulty": "Medium",
+    "path": "financial/exponential_moving_average"
+  },
+  {
+    "slug": "finance_ratios",
+    "category": "financial",
+    "title": "Finance Ratios",
+    "difficulty": "Medium",
+    "path": "financial/finance_ratios"
+  },
+  {
+    "slug": "interest",
+    "category": "financial",
+    "title": "Interest",
+    "difficulty": "Medium",
+    "path": "financial/interest"
+  },
+  {
+    "slug": "npv",
+    "category": "financial",
+    "title": "Npv",
+    "difficulty": "Medium",
+    "path": "financial/npv"
+  },
+  {
+    "slug": "npv_sensitivity",
+    "category": "financial",
+    "title": "Npv Sensitivity",
+    "difficulty": "Medium",
+    "path": "financial/npv_sensitivity"
+  },
+  {
+    "slug": "payback",
+    "category": "financial",
+    "title": "Payback",
+    "difficulty": "Medium",
+    "path": "financial/payback"
+  },
+  {
+    "slug": "present_value",
+    "category": "financial",
+    "title": "Present Value",
+    "difficulty": "Medium",
+    "path": "financial/present_value"
+  },
+  {
+    "slug": "treynor_ratio",
+    "category": "financial",
+    "title": "Treynor Ratio",
+    "difficulty": "Medium",
+    "path": "financial/treynor_ratio"
+  },
+  {
+    "slug": "convex_hull",
+    "category": "general",
+    "title": "Convex Hull",
+    "difficulty": "Medium",
+    "path": "general/convex_hull"
+  },
+  {
+    "slug": "fisher_yates_shuffle",
+    "category": "general",
+    "title": "Fisher Yates Shuffle",
+    "difficulty": "Medium",
+    "path": "general/fisher_yates_shuffle"
+  },
+  {
+    "slug": "genetic",
+    "category": "general",
+    "title": "Genetic",
+    "difficulty": "Medium",
+    "path": "general/genetic"
+  },
+  {
+    "slug": "hanoi",
+    "category": "general",
+    "title": "Hanoi",
+    "difficulty": "Medium",
+    "path": "general/hanoi"
+  },
+  {
+    "slug": "huffman_encoding",
+    "category": "general",
+    "title": "Huffman Encoding",
+    "difficulty": "Medium",
+    "path": "general/huffman_encoding"
+  },
+  {
+    "slug": "kadane_algorithm",
+    "category": "general",
+    "title": "Kadane Algorithm",
+    "difficulty": "Medium",
+    "path": "general/kadane_algorithm"
+  },
+  {
+    "slug": "kmeans",
+    "category": "general",
+    "title": "Kmeans",
+    "difficulty": "Medium",
+    "path": "general/kmeans"
+  },
+  {
+    "slug": "mex",
+    "category": "general",
+    "title": "Mex",
+    "difficulty": "Medium",
+    "path": "general/mex"
+  },
+  {
+    "slug": "heap",
+    "category": "general/permutations",
+    "title": "Heap",
+    "difficulty": "Medium",
+    "path": "general/permutations/heap"
+  },
+  {
+    "slug": "naive",
+    "category": "general/permutations",
+    "title": "Naive",
+    "difficulty": "Medium",
+    "path": "general/permutations/naive"
+  },
+  {
+    "slug": "steinhaus_johnson_trotter",
+    "category": "general/permutations",
+    "title": "Steinhaus Johnson Trotter",
+    "difficulty": "Medium",
+    "path": "general/permutations/steinhaus_johnson_trotter"
+  },
+  {
+    "slug": "subarray_sum_equals_k",
+    "category": "general",
+    "title": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "path": "general/subarray_sum_equals_k"
+  },
+  {
+    "slug": "two_sum",
+    "category": "general",
+    "title": "Two Sum",
+    "difficulty": "Medium",
+    "path": "general/two_sum"
+  },
+  {
+    "slug": "closest_points",
+    "category": "geometry",
+    "title": "Closest Points",
+    "difficulty": "Medium",
+    "path": "geometry/closest_points"
+  },
+  {
+    "slug": "graham_scan",
+    "category": "geometry",
+    "title": "Graham Scan",
+    "difficulty": "Medium",
+    "path": "geometry/graham_scan"
+  },
+  {
+    "slug": "jarvis_scan",
+    "category": "geometry",
+    "title": "Jarvis Scan",
+    "difficulty": "Medium",
+    "path": "geometry/jarvis_scan"
+  },
+  {
+    "slug": "point",
+    "category": "geometry",
+    "title": "Point",
+    "difficulty": "Medium",
+    "path": "geometry/point"
+  },
+  {
+    "slug": "polygon_points",
+    "category": "geometry",
+    "title": "Polygon Points",
+    "difficulty": "Medium",
+    "path": "geometry/polygon_points"
+  },
+  {
+    "slug": "ramer_douglas_peucker",
+    "category": "geometry",
+    "title": "Ramer Douglas Peucker",
+    "difficulty": "Medium",
+    "path": "geometry/ramer_douglas_peucker"
+  },
+  {
+    "slug": "segment",
+    "category": "geometry",
+    "title": "Segment",
+    "difficulty": "Medium",
+    "path": "geometry/segment"
+  },
+  {
+    "slug": "ant_colony_optimization",
+    "category": "graph",
+    "title": "Ant Colony Optimization",
+    "difficulty": "Medium",
+    "path": "graph/ant_colony_optimization"
+  },
+  {
+    "slug": "astar",
+    "category": "graph",
+    "title": "Astar",
+    "difficulty": "Medium",
+    "path": "graph/astar"
+  },
+  {
+    "slug": "bellman_ford",
+    "category": "graph",
+    "title": "Bellman Ford",
+    "difficulty": "Medium",
+    "path": "graph/bellman_ford"
+  },
+  {
+    "slug": "bipartite_matching",
+    "category": "graph",
+    "title": "Bipartite Matching",
+    "difficulty": "Medium",
+    "path": "graph/bipartite_matching"
+  },
+  {
+    "slug": "breadth_first_search",
+    "category": "graph",
+    "title": "Breadth First Search",
+    "difficulty": "Medium",
+    "path": "graph/breadth_first_search"
+  },
+  {
+    "slug": "centroid_decomposition",
+    "category": "graph",
+    "title": "Centroid Decomposition",
+    "difficulty": "Medium",
+    "path": "graph/centroid_decomposition"
+  },
+  {
+    "slug": "decremental_connectivity",
+    "category": "graph",
+    "title": "Decremental Connectivity",
+    "difficulty": "Medium",
+    "path": "graph/decremental_connectivity"
+  },
+  {
+    "slug": "depth_first_search",
+    "category": "graph",
+    "title": "Depth First Search",
+    "difficulty": "Medium",
+    "path": "graph/depth_first_search"
+  },
+  {
+    "slug": "depth_first_search_tic_tac_toe",
+    "category": "graph",
+    "title": "Depth First Search Tic Tac Toe",
+    "difficulty": "Medium",
+    "path": "graph/depth_first_search_tic_tac_toe"
+  },
+  {
+    "slug": "detect_cycle",
+    "category": "graph",
+    "title": "Detect Cycle",
+    "difficulty": "Medium",
+    "path": "graph/detect_cycle"
+  },
+  {
+    "slug": "dijkstra",
+    "category": "graph",
+    "title": "Dijkstra",
+    "difficulty": "Medium",
+    "path": "graph/dijkstra"
+  },
+  {
+    "slug": "dinic_maxflow",
+    "category": "graph",
+    "title": "Dinic Maxflow",
+    "difficulty": "Medium",
+    "path": "graph/dinic_maxflow"
+  },
+  {
+    "slug": "disjoint_set_union",
+    "category": "graph",
+    "title": "Disjoint Set Union",
+    "difficulty": "Medium",
+    "path": "graph/disjoint_set_union"
+  },
+  {
+    "slug": "eulerian_path",
+    "category": "graph",
+    "title": "Eulerian Path",
+    "difficulty": "Medium",
+    "path": "graph/eulerian_path"
+  },
+  {
+    "slug": "floyd_warshall",
+    "category": "graph",
+    "title": "Floyd Warshall",
+    "difficulty": "Medium",
+    "path": "graph/floyd_warshall"
+  },
+  {
+    "slug": "ford_fulkerson",
+    "category": "graph",
+    "title": "Ford Fulkerson",
+    "difficulty": "Medium",
+    "path": "graph/ford_fulkerson"
+  },
+  {
+    "slug": "graph_enumeration",
+    "category": "graph",
+    "title": "Graph Enumeration",
+    "difficulty": "Medium",
+    "path": "graph/graph_enumeration"
+  },
+  {
+    "slug": "heavy_light_decomposition",
+    "category": "graph",
+    "title": "Heavy Light Decomposition",
+    "difficulty": "Medium",
+    "path": "graph/heavy_light_decomposition"
+  },
+  {
+    "slug": "kosaraju",
+    "category": "graph",
+    "title": "Kosaraju",
+    "difficulty": "Medium",
+    "path": "graph/kosaraju"
+  },
+  {
+    "slug": "lee_breadth_first_search",
+    "category": "graph",
+    "title": "Lee Breadth First Search",
+    "difficulty": "Medium",
+    "path": "graph/lee_breadth_first_search"
+  },
+  {
+    "slug": "lowest_common_ancestor",
+    "category": "graph",
+    "title": "Lowest Common Ancestor",
+    "difficulty": "Medium",
+    "path": "graph/lowest_common_ancestor"
+  },
+  {
+    "slug": "minimum_spanning_tree",
+    "category": "graph",
+    "title": "Minimum Spanning Tree",
+    "difficulty": "Medium",
+    "path": "graph/minimum_spanning_tree"
+  },
+  {
+    "slug": "page_rank",
+    "category": "graph",
+    "title": "Page Rank",
+    "difficulty": "Medium",
+    "path": "graph/page_rank"
+  },
+  {
+    "slug": "prim",
+    "category": "graph",
+    "title": "Prim",
+    "difficulty": "Medium",
+    "path": "graph/prim"
+  },
+  {
+    "slug": "prufer_code",
+    "category": "graph",
+    "title": "Prufer Code",
+    "difficulty": "Medium",
+    "path": "graph/prufer_code"
+  },
+  {
+    "slug": "strongly_connected_components",
+    "category": "graph",
+    "title": "Strongly Connected Components",
+    "difficulty": "Medium",
+    "path": "graph/strongly_connected_components"
+  },
+  {
+    "slug": "tarjans_ssc",
+    "category": "graph",
+    "title": "Tarjans Ssc",
+    "difficulty": "Medium",
+    "path": "graph/tarjans_ssc"
+  },
+  {
+    "slug": "topological_sort",
+    "category": "graph",
+    "title": "Topological Sort",
+    "difficulty": "Medium",
+    "path": "graph/topological_sort"
+  },
+  {
+    "slug": "two_satisfiability",
+    "category": "graph",
+    "title": "Two Satisfiability",
+    "difficulty": "Medium",
+    "path": "graph/two_satisfiability"
+  },
+  {
+    "slug": "job_sequencing",
+    "category": "greedy",
+    "title": "Job Sequencing",
+    "difficulty": "Medium",
+    "path": "greedy/job_sequencing"
+  },
+  {
+    "slug": "minimum_coin_change",
+    "category": "greedy",
+    "title": "Minimum Coin Change",
+    "difficulty": "Medium",
+    "path": "greedy/minimum_coin_change"
+  },
+  {
+    "slug": "smallest_range",
+    "category": "greedy",
+    "title": "Smallest Range",
+    "difficulty": "Medium",
+    "path": "greedy/smallest_range"
+  },
+  {
+    "slug": "stable_matching",
+    "category": "greedy",
+    "title": "Stable Matching",
+    "difficulty": "Medium",
+    "path": "greedy/stable_matching"
+  },
+  {
+    "slug": "blake2b",
+    "category": "hashing",
+    "title": "Blake2B",
+    "difficulty": "Medium",
+    "path": "hashing/blake2b"
+  },
+  {
+    "slug": "fletcher",
+    "category": "hashing",
+    "title": "Fletcher",
+    "difficulty": "Medium",
+    "path": "hashing/fletcher"
+  },
+  {
+    "slug": "hashing_traits",
+    "category": "hashing",
+    "title": "Hashing Traits",
+    "difficulty": "Medium",
+    "path": "hashing/hashing_traits"
+  },
+  {
+    "slug": "md5",
+    "category": "hashing",
+    "title": "Md5",
+    "difficulty": "Medium",
+    "path": "hashing/md5"
+  },
+  {
+    "slug": "sha1",
+    "category": "hashing",
+    "title": "Sha1",
+    "difficulty": "Medium",
+    "path": "hashing/sha1"
+  },
+  {
+    "slug": "sha2",
+    "category": "hashing",
+    "title": "Sha2",
+    "difficulty": "Medium",
+    "path": "hashing/sha2"
+  },
+  {
+    "slug": "sha3",
+    "category": "hashing",
+    "title": "Sha3",
+    "difficulty": "Medium",
+    "path": "hashing/sha3"
+  },
+  {
+    "slug": "cholesky",
+    "category": "machine_learning",
+    "title": "Cholesky",
+    "difficulty": "Medium",
+    "path": "machine_learning/cholesky"
+  },
+  {
+    "slug": "decision_tree",
+    "category": "machine_learning",
+    "title": "Decision Tree",
+    "difficulty": "Medium",
+    "path": "machine_learning/decision_tree"
+  },
+  {
+    "slug": "k_means",
+    "category": "machine_learning",
+    "title": "K Means",
+    "difficulty": "Medium",
+    "path": "machine_learning/k_means"
+  },
+  {
+    "slug": "k_nearest_neighbors",
+    "category": "machine_learning",
+    "title": "K Nearest Neighbors",
+    "difficulty": "Medium",
+    "path": "machine_learning/k_nearest_neighbors"
+  },
+  {
+    "slug": "linear_regression",
+    "category": "machine_learning",
+    "title": "Linear Regression",
+    "difficulty": "Medium",
+    "path": "machine_learning/linear_regression"
+  },
+  {
+    "slug": "logistic_regression",
+    "category": "machine_learning",
+    "title": "Logistic Regression",
+    "difficulty": "Medium",
+    "path": "machine_learning/logistic_regression"
+  },
+  {
+    "slug": "average_margin_ranking_loss",
+    "category": "machine_learning/loss_function",
+    "title": "Average Margin Ranking Loss",
+    "difficulty": "Medium",
+    "path": "machine_learning/loss_function/average_margin_ranking_loss"
+  },
+  {
+    "slug": "hinge_loss",
+    "category": "machine_learning/loss_function",
+    "title": "Hinge Loss",
+    "difficulty": "Medium",
+    "path": "machine_learning/loss_function/hinge_loss"
+  },
+  {
+    "slug": "huber_loss",
+    "category": "machine_learning/loss_function",
+    "title": "Huber Loss",
+    "difficulty": "Medium",
+    "path": "machine_learning/loss_function/huber_loss"
+  },
+  {
+    "slug": "kl_divergence_loss",
+    "category": "machine_learning/loss_function",
+    "title": "Kl Divergence Loss",
+    "difficulty": "Medium",
+    "path": "machine_learning/loss_function/kl_divergence_loss"
+  },
+  {
+    "slug": "mean_absolute_error_loss",
+    "category": "machine_learning/loss_function",
+    "title": "Mean Absolute Error Loss",
+    "difficulty": "Medium",
+    "path": "machine_learning/loss_function/mean_absolute_error_loss"
+  },
+  {
+    "slug": "mean_squared_error_loss",
+    "category": "machine_learning/loss_function",
+    "title": "Mean Squared Error Loss",
+    "difficulty": "Medium",
+    "path": "machine_learning/loss_function/mean_squared_error_loss"
+  },
+  {
+    "slug": "negative_log_likelihood",
+    "category": "machine_learning/loss_function",
+    "title": "Negative Log Likelihood",
+    "difficulty": "Medium",
+    "path": "machine_learning/loss_function/negative_log_likelihood"
+  },
+  {
+    "slug": "naive_bayes",
+    "category": "machine_learning",
+    "title": "Naive Bayes",
+    "difficulty": "Medium",
+    "path": "machine_learning/naive_bayes"
+  },
+  {
+    "slug": "adam",
+    "category": "machine_learning/optimization",
+    "title": "Adam",
+    "difficulty": "Medium",
+    "path": "machine_learning/optimization/adam"
+  },
+  {
+    "slug": "gradient_descent",
+    "category": "machine_learning/optimization",
+    "title": "Gradient Descent",
+    "difficulty": "Medium",
+    "path": "machine_learning/optimization/gradient_descent"
+  },
+  {
+    "slug": "momentum",
+    "category": "machine_learning/optimization",
+    "title": "Momentum",
+    "difficulty": "Medium",
+    "path": "machine_learning/optimization/momentum"
+  },
+  {
+    "slug": "perceptron",
+    "category": "machine_learning",
+    "title": "Perceptron",
+    "difficulty": "Medium",
+    "path": "machine_learning/perceptron"
+  },
+  {
+    "slug": "principal_component_analysis",
+    "category": "machine_learning",
+    "title": "Principal Component Analysis",
+    "difficulty": "Medium",
+    "path": "machine_learning/principal_component_analysis"
+  },
+  {
+    "slug": "random_forest",
+    "category": "machine_learning",
+    "title": "Random Forest",
+    "difficulty": "Medium",
+    "path": "machine_learning/random_forest"
+  },
+  {
+    "slug": "support_vector_classifier",
+    "category": "machine_learning",
+    "title": "Support Vector Classifier",
+    "difficulty": "Medium",
+    "path": "machine_learning/support_vector_classifier"
+  },
+  {
+    "slug": "abs",
+    "category": "math",
+    "title": "Abs",
+    "difficulty": "Medium",
+    "path": "math/abs"
+  },
+  {
+    "slug": "aliquot_sum",
+    "category": "math",
+    "title": "Aliquot Sum",
+    "difficulty": "Medium",
+    "path": "math/aliquot_sum"
+  },
+  {
+    "slug": "amicable_numbers",
+    "category": "math",
+    "title": "Amicable Numbers",
+    "difficulty": "Medium",
+    "path": "math/amicable_numbers"
+  },
+  {
+    "slug": "area_of_polygon",
+    "category": "math",
+    "title": "Area Of Polygon",
+    "difficulty": "Medium",
+    "path": "math/area_of_polygon"
+  },
+  {
+    "slug": "area_under_curve",
+    "category": "math",
+    "title": "Area Under Curve",
+    "difficulty": "Medium",
+    "path": "math/area_under_curve"
+  },
+  {
+    "slug": "armstrong_number",
+    "category": "math",
+    "title": "Armstrong Number",
+    "difficulty": "Medium",
+    "path": "math/armstrong_number"
+  },
+  {
+    "slug": "average",
+    "category": "math",
+    "title": "Average",
+    "difficulty": "Medium",
+    "path": "math/average"
+  },
+  {
+    "slug": "baby_step_giant_step",
+    "category": "math",
+    "title": "Baby Step Giant Step",
+    "difficulty": "Medium",
+    "path": "math/baby_step_giant_step"
+  },
+  {
+    "slug": "bell_numbers",
+    "category": "math",
+    "title": "Bell Numbers",
+    "difficulty": "Medium",
+    "path": "math/bell_numbers"
+  },
+  {
+    "slug": "binary_exponentiation",
+    "category": "math",
+    "title": "Binary Exponentiation",
+    "difficulty": "Medium",
+    "path": "math/binary_exponentiation"
+  },
+  {
+    "slug": "binomial_coefficient",
+    "category": "math",
+    "title": "Binomial Coefficient",
+    "difficulty": "Medium",
+    "path": "math/binomial_coefficient"
+  },
+  {
+    "slug": "catalan_numbers",
+    "category": "math",
+    "title": "Catalan Numbers",
+    "difficulty": "Medium",
+    "path": "math/catalan_numbers"
+  },
+  {
+    "slug": "ceil",
+    "category": "math",
+    "title": "Ceil",
+    "difficulty": "Medium",
+    "path": "math/ceil"
+  },
+  {
+    "slug": "chinese_remainder_theorem",
+    "category": "math",
+    "title": "Chinese Remainder Theorem",
+    "difficulty": "Medium",
+    "path": "math/chinese_remainder_theorem"
+  },
+  {
+    "slug": "collatz_sequence",
+    "category": "math",
+    "title": "Collatz Sequence",
+    "difficulty": "Medium",
+    "path": "math/collatz_sequence"
+  },
+  {
+    "slug": "combinations",
+    "category": "math",
+    "title": "Combinations",
+    "difficulty": "Medium",
+    "path": "math/combinations"
+  },
+  {
+    "slug": "cross_entropy_loss",
+    "category": "math",
+    "title": "Cross Entropy Loss",
+    "difficulty": "Medium",
+    "path": "math/cross_entropy_loss"
+  },
+  {
+    "slug": "decimal_to_fraction",
+    "category": "math",
+    "title": "Decimal To Fraction",
+    "difficulty": "Medium",
+    "path": "math/decimal_to_fraction"
+  },
+  {
+    "slug": "doomsday",
+    "category": "math",
+    "title": "Doomsday",
+    "difficulty": "Medium",
+    "path": "math/doomsday"
+  },
+  {
+    "slug": "elliptic_curve",
+    "category": "math",
+    "title": "Elliptic Curve",
+    "difficulty": "Medium",
+    "path": "math/elliptic_curve"
+  },
+  {
+    "slug": "euclidean_distance",
+    "category": "math",
+    "title": "Euclidean Distance",
+    "difficulty": "Medium",
+    "path": "math/euclidean_distance"
+  },
+  {
+    "slug": "exponential_linear_unit",
+    "category": "math",
+    "title": "Exponential Linear Unit",
+    "difficulty": "Medium",
+    "path": "math/exponential_linear_unit"
+  },
+  {
+    "slug": "extended_euclidean_algorithm",
+    "category": "math",
+    "title": "Extended Euclidean Algorithm",
+    "difficulty": "Medium",
+    "path": "math/extended_euclidean_algorithm"
+  },
+  {
+    "slug": "factorial",
+    "category": "math",
+    "title": "Factorial",
+    "difficulty": "Medium",
+    "path": "math/factorial"
+  },
+  {
+    "slug": "factors",
+    "category": "math",
+    "title": "Factors",
+    "difficulty": "Medium",
+    "path": "math/factors"
+  },
+  {
+    "slug": "fast_fourier_transform",
+    "category": "math",
+    "title": "Fast Fourier Transform",
+    "difficulty": "Medium",
+    "path": "math/fast_fourier_transform"
+  },
+  {
+    "slug": "fast_power",
+    "category": "math",
+    "title": "Fast Power",
+    "difficulty": "Medium",
+    "path": "math/fast_power"
+  },
+  {
+    "slug": "faster_perfect_numbers",
+    "category": "math",
+    "title": "Faster Perfect Numbers",
+    "difficulty": "Medium",
+    "path": "math/faster_perfect_numbers"
+  },
+  {
+    "slug": "field",
+    "category": "math",
+    "title": "Field",
+    "difficulty": "Medium",
+    "path": "math/field"
+  },
+  {
+    "slug": "frizzy_number",
+    "category": "math",
+    "title": "Frizzy Number",
+    "difficulty": "Medium",
+    "path": "math/frizzy_number"
+  },
+  {
+    "slug": "gaussian_elimination",
+    "category": "math",
+    "title": "Gaussian Elimination",
+    "difficulty": "Medium",
+    "path": "math/gaussian_elimination"
+  },
+  {
+    "slug": "gaussian_error_linear_unit",
+    "category": "math",
+    "title": "Gaussian Error Linear Unit",
+    "difficulty": "Medium",
+    "path": "math/gaussian_error_linear_unit"
+  },
+  {
+    "slug": "gcd_of_n_numbers",
+    "category": "math",
+    "title": "Gcd Of N Numbers",
+    "difficulty": "Medium",
+    "path": "math/gcd_of_n_numbers"
+  },
+  {
+    "slug": "geometric_series",
+    "category": "math",
+    "title": "Geometric Series",
+    "difficulty": "Medium",
+    "path": "math/geometric_series"
+  },
+  {
+    "slug": "greatest_common_divisor",
+    "category": "math",
+    "title": "Greatest Common Divisor",
+    "difficulty": "Medium",
+    "path": "math/greatest_common_divisor"
+  },
+  {
+    "slug": "huber_loss",
+    "category": "math",
+    "title": "Huber Loss",
+    "difficulty": "Medium",
+    "path": "math/huber_loss"
+  },
+  {
+    "slug": "infix_to_postfix",
+    "category": "math",
+    "title": "Infix To Postfix",
+    "difficulty": "Medium",
+    "path": "math/infix_to_postfix"
+  },
+  {
+    "slug": "interest",
+    "category": "math",
+    "title": "Interest",
+    "difficulty": "Medium",
+    "path": "math/interest"
+  },
+  {
+    "slug": "interpolation",
+    "category": "math",
+    "title": "Interpolation",
+    "difficulty": "Medium",
+    "path": "math/interpolation"
+  },
+  {
+    "slug": "interquartile_range",
+    "category": "math",
+    "title": "Interquartile Range",
+    "difficulty": "Medium",
+    "path": "math/interquartile_range"
+  },
+  {
+    "slug": "karatsuba_multiplication",
+    "category": "math",
+    "title": "Karatsuba Multiplication",
+    "difficulty": "Medium",
+    "path": "math/karatsuba_multiplication"
+  },
+  {
+    "slug": "lcm_of_n_numbers",
+    "category": "math",
+    "title": "Lcm Of N Numbers",
+    "difficulty": "Medium",
+    "path": "math/lcm_of_n_numbers"
+  },
+  {
+    "slug": "leaky_relu",
+    "category": "math",
+    "title": "Leaky Relu",
+    "difficulty": "Medium",
+    "path": "math/leaky_relu"
+  },
+  {
+    "slug": "least_square_approx",
+    "category": "math",
+    "title": "Least Square Approx",
+    "difficulty": "Medium",
+    "path": "math/least_square_approx"
+  },
+  {
+    "slug": "linear_sieve",
+    "category": "math",
+    "title": "Linear Sieve",
+    "difficulty": "Medium",
+    "path": "math/linear_sieve"
+  },
+  {
+    "slug": "logarithm",
+    "category": "math",
+    "title": "Logarithm",
+    "difficulty": "Medium",
+    "path": "math/logarithm"
+  },
+  {
+    "slug": "lucas_series",
+    "category": "math",
+    "title": "Lucas Series",
+    "difficulty": "Medium",
+    "path": "math/lucas_series"
+  },
+  {
+    "slug": "matrix_ops",
+    "category": "math",
+    "title": "Matrix Ops",
+    "difficulty": "Medium",
+    "path": "math/matrix_ops"
+  },
+  {
+    "slug": "mersenne_primes",
+    "category": "math",
+    "title": "Mersenne Primes",
+    "difficulty": "Medium",
+    "path": "math/mersenne_primes"
+  },
+  {
+    "slug": "miller_rabin",
+    "category": "math",
+    "title": "Miller Rabin",
+    "difficulty": "Medium",
+    "path": "math/miller_rabin"
+  },
+  {
+    "slug": "modular_exponential",
+    "category": "math",
+    "title": "Modular Exponential",
+    "difficulty": "Medium",
+    "path": "math/modular_exponential"
+  },
+  {
+    "slug": "newton_raphson",
+    "category": "math",
+    "title": "Newton Raphson",
+    "difficulty": "Medium",
+    "path": "math/newton_raphson"
+  },
+  {
+    "slug": "nthprime",
+    "category": "math",
+    "title": "Nthprime",
+    "difficulty": "Medium",
+    "path": "math/nthprime"
+  },
+  {
+    "slug": "pascal_triangle",
+    "category": "math",
+    "title": "Pascal Triangle",
+    "difficulty": "Medium",
+    "path": "math/pascal_triangle"
+  },
+  {
+    "slug": "perfect_cube",
+    "category": "math",
+    "title": "Perfect Cube",
+    "difficulty": "Medium",
+    "path": "math/perfect_cube"
+  },
+  {
+    "slug": "perfect_numbers",
+    "category": "math",
+    "title": "Perfect Numbers",
+    "difficulty": "Medium",
+    "path": "math/perfect_numbers"
+  },
+  {
+    "slug": "perfect_square",
+    "category": "math",
+    "title": "Perfect Square",
+    "difficulty": "Medium",
+    "path": "math/perfect_square"
+  },
+  {
+    "slug": "pollard_rho",
+    "category": "math",
+    "title": "Pollard Rho",
+    "difficulty": "Medium",
+    "path": "math/pollard_rho"
+  },
+  {
+    "slug": "postfix_evaluation",
+    "category": "math",
+    "title": "Postfix Evaluation",
+    "difficulty": "Medium",
+    "path": "math/postfix_evaluation"
+  },
+  {
+    "slug": "prime_check",
+    "category": "math",
+    "title": "Prime Check",
+    "difficulty": "Medium",
+    "path": "math/prime_check"
+  },
+  {
+    "slug": "prime_factors",
+    "category": "math",
+    "title": "Prime Factors",
+    "difficulty": "Medium",
+    "path": "math/prime_factors"
+  },
+  {
+    "slug": "prime_numbers",
+    "category": "math",
+    "title": "Prime Numbers",
+    "difficulty": "Medium",
+    "path": "math/prime_numbers"
+  },
+  {
+    "slug": "quadratic_residue",
+    "category": "math",
+    "title": "Quadratic Residue",
+    "difficulty": "Medium",
+    "path": "math/quadratic_residue"
+  },
+  {
+    "slug": "random",
+    "category": "math",
+    "title": "Random",
+    "difficulty": "Medium",
+    "path": "math/random"
+  },
+  {
+    "slug": "relu",
+    "category": "math",
+    "title": "Relu",
+    "difficulty": "Medium",
+    "path": "math/relu"
+  },
+  {
+    "slug": "sieve_of_eratosthenes",
+    "category": "math",
+    "title": "Sieve Of Eratosthenes",
+    "difficulty": "Medium",
+    "path": "math/sieve_of_eratosthenes"
+  },
+  {
+    "slug": "sigmoid",
+    "category": "math",
+    "title": "Sigmoid",
+    "difficulty": "Medium",
+    "path": "math/sigmoid"
+  },
+  {
+    "slug": "signum",
+    "category": "math",
+    "title": "Signum",
+    "difficulty": "Medium",
+    "path": "math/signum"
+  },
+  {
+    "slug": "simpsons_integration",
+    "category": "math",
+    "title": "Simpsons Integration",
+    "difficulty": "Medium",
+    "path": "math/simpsons_integration"
+  },
+  {
+    "slug": "softmax",
+    "category": "math",
+    "title": "Softmax",
+    "difficulty": "Medium",
+    "path": "math/softmax"
+  },
+  {
+    "slug": "sprague_grundy_theorem",
+    "category": "math",
+    "title": "Sprague Grundy Theorem",
+    "difficulty": "Medium",
+    "path": "math/sprague_grundy_theorem"
+  },
+  {
+    "slug": "square_pyramidal_numbers",
+    "category": "math",
+    "title": "Square Pyramidal Numbers",
+    "difficulty": "Medium",
+    "path": "math/square_pyramidal_numbers"
+  },
+  {
+    "slug": "square_root",
+    "category": "math",
+    "title": "Square Root",
+    "difficulty": "Medium",
+    "path": "math/square_root"
+  },
+  {
+    "slug": "sum_of_digits",
+    "category": "math",
+    "title": "Sum Of Digits",
+    "difficulty": "Medium",
+    "path": "math/sum_of_digits"
+  },
+  {
+    "slug": "sum_of_geometric_progression",
+    "category": "math",
+    "title": "Sum Of Geometric Progression",
+    "difficulty": "Medium",
+    "path": "math/sum_of_geometric_progression"
+  },
+  {
+    "slug": "sum_of_harmonic_series",
+    "category": "math",
+    "title": "Sum Of Harmonic Series",
+    "difficulty": "Medium",
+    "path": "math/sum_of_harmonic_series"
+  },
+  {
+    "slug": "sylvester_sequence",
+    "category": "math",
+    "title": "Sylvester Sequence",
+    "difficulty": "Medium",
+    "path": "math/sylvester_sequence"
+  },
+  {
+    "slug": "tanh",
+    "category": "math",
+    "title": "Tanh",
+    "difficulty": "Medium",
+    "path": "math/tanh"
+  },
+  {
+    "slug": "trapezoidal_integration",
+    "category": "math",
+    "title": "Trapezoidal Integration",
+    "difficulty": "Medium",
+    "path": "math/trapezoidal_integration"
+  },
+  {
+    "slug": "trial_division",
+    "category": "math",
+    "title": "Trial Division",
+    "difficulty": "Medium",
+    "path": "math/trial_division"
+  },
+  {
+    "slug": "trig_functions",
+    "category": "math",
+    "title": "Trig Functions",
+    "difficulty": "Medium",
+    "path": "math/trig_functions"
+  },
+  {
+    "slug": "vector_cross_product",
+    "category": "math",
+    "title": "Vector Cross Product",
+    "difficulty": "Medium",
+    "path": "math/vector_cross_product"
+  },
+  {
+    "slug": "zellers_congruence_algorithm",
+    "category": "math",
+    "title": "Zellers Congruence Algorithm",
+    "difficulty": "Medium",
+    "path": "math/zellers_congruence_algorithm"
+  },
+  {
+    "slug": "bearing",
+    "category": "navigation",
+    "title": "Bearing",
+    "difficulty": "Medium",
+    "path": "navigation/bearing"
+  },
+  {
+    "slug": "haversine",
+    "category": "navigation",
+    "title": "Haversine",
+    "difficulty": "Medium",
+    "path": "navigation/haversine"
+  },
+  {
+    "slug": "rhumbline",
+    "category": "navigation",
+    "title": "Rhumbline",
+    "difficulty": "Medium",
+    "path": "navigation/rhumbline"
+  },
+  {
+    "slug": "compute_totient",
+    "category": "number_theory",
+    "title": "Compute Totient",
+    "difficulty": "Medium",
+    "path": "number_theory/compute_totient"
+  },
+  {
+    "slug": "euler_totient",
+    "category": "number_theory",
+    "title": "Euler Totient",
+    "difficulty": "Medium",
+    "path": "number_theory/euler_totient"
+  },
+  {
+    "slug": "kth_factor",
+    "category": "number_theory",
+    "title": "Kth Factor",
+    "difficulty": "Medium",
+    "path": "number_theory/kth_factor"
+  },
+  {
+    "slug": "binary_search",
+    "category": "searching",
+    "title": "The High-Frequency Stock Lookup: Binary Search",
+    "difficulty": "Medium",
+    "path": "searching/binary_search"
+  },
+  {
+    "slug": "binary_search_recursive",
+    "category": "searching",
+    "title": "Binary Search Recursive",
+    "difficulty": "Medium",
+    "path": "searching/binary_search_recursive"
+  },
+  {
+    "slug": "exponential_search",
+    "category": "searching",
+    "title": "Exponential Search",
+    "difficulty": "Medium",
+    "path": "searching/exponential_search"
+  },
+  {
+    "slug": "fibonacci_search",
+    "category": "searching",
+    "title": "Fibonacci Search",
+    "difficulty": "Medium",
+    "path": "searching/fibonacci_search"
+  },
+  {
+    "slug": "interpolation_search",
+    "category": "searching",
+    "title": "Interpolation Search",
+    "difficulty": "Medium",
+    "path": "searching/interpolation_search"
+  },
+  {
+    "slug": "jump_search",
+    "category": "searching",
+    "title": "Jump Search",
+    "difficulty": "Medium",
+    "path": "searching/jump_search"
+  },
+  {
+    "slug": "kth_smallest",
+    "category": "searching",
+    "title": "Kth Smallest",
+    "difficulty": "Medium",
+    "path": "searching/kth_smallest"
+  },
+  {
+    "slug": "kth_smallest_heap",
+    "category": "searching",
+    "title": "Kth Smallest Heap",
+    "difficulty": "Medium",
+    "path": "searching/kth_smallest_heap"
+  },
+  {
+    "slug": "linear_search",
+    "category": "searching",
+    "title": "Linear Search",
+    "difficulty": "Medium",
+    "path": "searching/linear_search"
+  },
+  {
+    "slug": "moore_voting",
+    "category": "searching",
+    "title": "Moore Voting",
+    "difficulty": "Medium",
+    "path": "searching/moore_voting"
+  },
+  {
+    "slug": "quick_select",
+    "category": "searching",
+    "title": "Quick Select",
+    "difficulty": "Medium",
+    "path": "searching/quick_select"
+  },
+  {
+    "slug": "saddleback_search",
+    "category": "searching",
+    "title": "Saddleback Search",
+    "difficulty": "Medium",
+    "path": "searching/saddleback_search"
+  },
+  {
+    "slug": "ternary_search",
+    "category": "searching",
+    "title": "Ternary Search",
+    "difficulty": "Medium",
+    "path": "searching/ternary_search"
+  },
+  {
+    "slug": "ternary_search_min_max",
+    "category": "searching",
+    "title": "Ternary Search Min Max",
+    "difficulty": "Medium",
+    "path": "searching/ternary_search_min_max"
+  },
+  {
+    "slug": "ternary_search_min_max_recursive",
+    "category": "searching",
+    "title": "Ternary Search Min Max Recursive",
+    "difficulty": "Medium",
+    "path": "searching/ternary_search_min_max_recursive"
+  },
+  {
+    "slug": "ternary_search_recursive",
+    "category": "searching",
+    "title": "Ternary Search Recursive",
+    "difficulty": "Medium",
+    "path": "searching/ternary_search_recursive"
+  },
+  {
+    "slug": "yin",
+    "category": "signal_analysis",
+    "title": "Yin",
+    "difficulty": "Medium",
+    "path": "signal_analysis/yin"
+  },
+  {
+    "slug": "bead_sort",
+    "category": "sorting",
+    "title": "Bead Sort",
+    "difficulty": "Medium",
+    "path": "sorting/bead_sort"
+  },
+  {
+    "slug": "binary_insertion_sort",
+    "category": "sorting",
+    "title": "Binary Insertion Sort",
+    "difficulty": "Medium",
+    "path": "sorting/binary_insertion_sort"
+  },
+  {
+    "slug": "bingo_sort",
+    "category": "sorting",
+    "title": "Bingo Sort",
+    "difficulty": "Medium",
+    "path": "sorting/bingo_sort"
+  },
+  {
+    "slug": "bitonic_sort",
+    "category": "sorting",
+    "title": "Bitonic Sort",
+    "difficulty": "Medium",
+    "path": "sorting/bitonic_sort"
+  },
+  {
+    "slug": "bogo_sort",
+    "category": "sorting",
+    "title": "Bogo Sort",
+    "difficulty": "Medium",
+    "path": "sorting/bogo_sort"
+  },
+  {
+    "slug": "bubble_sort",
+    "category": "sorting",
+    "title": "The Warehouse Pod Organizer: Bubble Sort",
+    "difficulty": "Medium",
+    "path": "sorting/bubble_sort"
+  },
+  {
+    "slug": "bucket_sort",
+    "category": "sorting",
+    "title": "Bucket Sort",
+    "difficulty": "Medium",
+    "path": "sorting/bucket_sort"
+  },
+  {
+    "slug": "cocktail_shaker_sort",
+    "category": "sorting",
+    "title": "Cocktail Shaker Sort",
+    "difficulty": "Medium",
+    "path": "sorting/cocktail_shaker_sort"
+  },
+  {
+    "slug": "comb_sort",
+    "category": "sorting",
+    "title": "Comb Sort",
+    "difficulty": "Medium",
+    "path": "sorting/comb_sort"
+  },
+  {
+    "slug": "counting_sort",
+    "category": "sorting",
+    "title": "Counting Sort",
+    "difficulty": "Medium",
+    "path": "sorting/counting_sort"
+  },
+  {
+    "slug": "cycle_sort",
+    "category": "sorting",
+    "title": "Cycle Sort",
+    "difficulty": "Medium",
+    "path": "sorting/cycle_sort"
+  },
+  {
+    "slug": "dutch_national_flag_sort",
+    "category": "sorting",
+    "title": "Dutch National Flag Sort",
+    "difficulty": "Medium",
+    "path": "sorting/dutch_national_flag_sort"
+  },
+  {
+    "slug": "exchange_sort",
+    "category": "sorting",
+    "title": "Exchange Sort",
+    "difficulty": "Medium",
+    "path": "sorting/exchange_sort"
+  },
+  {
+    "slug": "gnome_sort",
+    "category": "sorting",
+    "title": "Gnome Sort",
+    "difficulty": "Medium",
+    "path": "sorting/gnome_sort"
+  },
+  {
+    "slug": "heap_sort",
+    "category": "sorting",
+    "title": "Heap Sort",
+    "difficulty": "Medium",
+    "path": "sorting/heap_sort"
+  },
+  {
+    "slug": "insertion_sort",
+    "category": "sorting",
+    "title": "Insertion Sort",
+    "difficulty": "Medium",
+    "path": "sorting/insertion_sort"
+  },
+  {
+    "slug": "intro_sort",
+    "category": "sorting",
+    "title": "Intro Sort",
+    "difficulty": "Medium",
+    "path": "sorting/intro_sort"
+  },
+  {
+    "slug": "merge_sort",
+    "category": "sorting",
+    "title": "Merge Sort",
+    "difficulty": "Medium",
+    "path": "sorting/merge_sort"
+  },
+  {
+    "slug": "odd_even_sort",
+    "category": "sorting",
+    "title": "Odd Even Sort",
+    "difficulty": "Medium",
+    "path": "sorting/odd_even_sort"
+  },
+  {
+    "slug": "pancake_sort",
+    "category": "sorting",
+    "title": "Pancake Sort",
+    "difficulty": "Medium",
+    "path": "sorting/pancake_sort"
+  },
+  {
+    "slug": "patience_sort",
+    "category": "sorting",
+    "title": "Patience Sort",
+    "difficulty": "Medium",
+    "path": "sorting/patience_sort"
+  },
+  {
+    "slug": "pigeonhole_sort",
+    "category": "sorting",
+    "title": "Pigeonhole Sort",
+    "difficulty": "Medium",
+    "path": "sorting/pigeonhole_sort"
+  },
+  {
+    "slug": "quick_sort",
+    "category": "sorting",
+    "title": "Quick Sort",
+    "difficulty": "Medium",
+    "path": "sorting/quick_sort"
+  },
+  {
+    "slug": "quick_sort_3_ways",
+    "category": "sorting",
+    "title": "Quick Sort 3 Ways",
+    "difficulty": "Medium",
+    "path": "sorting/quick_sort_3_ways"
+  },
+  {
+    "slug": "radix_sort",
+    "category": "sorting",
+    "title": "Radix Sort",
+    "difficulty": "Medium",
+    "path": "sorting/radix_sort"
+  },
+  {
+    "slug": "selection_sort",
+    "category": "sorting",
+    "title": "Selection Sort",
+    "difficulty": "Medium",
+    "path": "sorting/selection_sort"
+  },
+  {
+    "slug": "shell_sort",
+    "category": "sorting",
+    "title": "Shell Sort",
+    "difficulty": "Medium",
+    "path": "sorting/shell_sort"
+  },
+  {
+    "slug": "sleep_sort",
+    "category": "sorting",
+    "title": "Sleep Sort",
+    "difficulty": "Medium",
+    "path": "sorting/sleep_sort"
+  },
+  {
+    "slug": "sort_utils",
+    "category": "sorting",
+    "title": "Sort Utils",
+    "difficulty": "Medium",
+    "path": "sorting/sort_utils"
+  },
+  {
+    "slug": "stooge_sort",
+    "category": "sorting",
+    "title": "Stooge Sort",
+    "difficulty": "Medium",
+    "path": "sorting/stooge_sort"
+  },
+  {
+    "slug": "strand_sort",
+    "category": "sorting",
+    "title": "Strand Sort",
+    "difficulty": "Medium",
+    "path": "sorting/strand_sort"
+  },
+  {
+    "slug": "tim_sort",
+    "category": "sorting",
+    "title": "Tim Sort",
+    "difficulty": "Medium",
+    "path": "sorting/tim_sort"
+  },
+  {
+    "slug": "tournament_sort",
+    "category": "sorting",
+    "title": "Tournament Sort",
+    "difficulty": "Medium",
+    "path": "sorting/tournament_sort"
+  },
+  {
+    "slug": "tree_sort",
+    "category": "sorting",
+    "title": "Tree Sort",
+    "difficulty": "Medium",
+    "path": "sorting/tree_sort"
+  },
+  {
+    "slug": "wave_sort",
+    "category": "sorting",
+    "title": "Wave Sort",
+    "difficulty": "Medium",
+    "path": "sorting/wave_sort"
+  },
+  {
+    "slug": "wiggle_sort",
+    "category": "sorting",
+    "title": "Wiggle Sort",
+    "difficulty": "Medium",
+    "path": "sorting/wiggle_sort"
+  },
+  {
+    "slug": "aho_corasick",
+    "category": "string",
+    "title": "Aho Corasick",
+    "difficulty": "Medium",
+    "path": "string/aho_corasick"
+  },
+  {
+    "slug": "anagram",
+    "category": "string",
+    "title": "Anagram",
+    "difficulty": "Medium",
+    "path": "string/anagram"
+  },
+  {
+    "slug": "autocomplete_using_trie",
+    "category": "string",
+    "title": "Autocomplete Using Trie",
+    "difficulty": "Medium",
+    "path": "string/autocomplete_using_trie"
+  },
+  {
+    "slug": "boyer_moore_search",
+    "category": "string",
+    "title": "Boyer Moore Search",
+    "difficulty": "Medium",
+    "path": "string/boyer_moore_search"
+  },
+  {
+    "slug": "burrows_wheeler_transform",
+    "category": "string",
+    "title": "Burrows Wheeler Transform",
+    "difficulty": "Medium",
+    "path": "string/burrows_wheeler_transform"
+  },
+  {
+    "slug": "duval_algorithm",
+    "category": "string",
+    "title": "Duval Algorithm",
+    "difficulty": "Medium",
+    "path": "string/duval_algorithm"
+  },
+  {
+    "slug": "hamming_distance",
+    "category": "string",
+    "title": "Hamming Distance",
+    "difficulty": "Medium",
+    "path": "string/hamming_distance"
+  },
+  {
+    "slug": "isogram",
+    "category": "string",
+    "title": "Isogram",
+    "difficulty": "Medium",
+    "path": "string/isogram"
+  },
+  {
+    "slug": "isomorphism",
+    "category": "string",
+    "title": "Isomorphism",
+    "difficulty": "Medium",
+    "path": "string/isomorphism"
+  },
+  {
+    "slug": "jaro_winkler_distance",
+    "category": "string",
+    "title": "Jaro Winkler Distance",
+    "difficulty": "Medium",
+    "path": "string/jaro_winkler_distance"
+  },
+  {
+    "slug": "knuth_morris_pratt",
+    "category": "string",
+    "title": "Knuth Morris Pratt",
+    "difficulty": "Medium",
+    "path": "string/knuth_morris_pratt"
+  },
+  {
+    "slug": "levenshtein_distance",
+    "category": "string",
+    "title": "Levenshtein Distance",
+    "difficulty": "Medium",
+    "path": "string/levenshtein_distance"
+  },
+  {
+    "slug": "lipogram",
+    "category": "string",
+    "title": "Lipogram",
+    "difficulty": "Medium",
+    "path": "string/lipogram"
+  },
+  {
+    "slug": "manacher",
+    "category": "string",
+    "title": "Manacher",
+    "difficulty": "Medium",
+    "path": "string/manacher"
+  },
+  {
+    "slug": "palindrome",
+    "category": "string",
+    "title": "Palindrome",
+    "difficulty": "Medium",
+    "path": "string/palindrome"
+  },
+  {
+    "slug": "pangram",
+    "category": "string",
+    "title": "Pangram",
+    "difficulty": "Medium",
+    "path": "string/pangram"
+  },
+  {
+    "slug": "rabin_karp",
+    "category": "string",
+    "title": "Rabin Karp",
+    "difficulty": "Medium",
+    "path": "string/rabin_karp"
+  },
+  {
+    "slug": "reverse",
+    "category": "string",
+    "title": "Reverse",
+    "difficulty": "Medium",
+    "path": "string/reverse"
+  },
+  {
+    "slug": "run_length_encoding",
+    "category": "string",
+    "title": "Run Length Encoding",
+    "difficulty": "Medium",
+    "path": "string/run_length_encoding"
+  },
+  {
+    "slug": "shortest_palindrome",
+    "category": "string",
+    "title": "Shortest Palindrome",
+    "difficulty": "Medium",
+    "path": "string/shortest_palindrome"
+  },
+  {
+    "slug": "suffix_array",
+    "category": "string",
+    "title": "Suffix Array",
+    "difficulty": "Medium",
+    "path": "string/suffix_array"
+  },
+  {
+    "slug": "suffix_array_manber_myers",
+    "category": "string",
+    "title": "Suffix Array Manber Myers",
+    "difficulty": "Medium",
+    "path": "string/suffix_array_manber_myers"
+  },
+  {
+    "slug": "suffix_tree",
+    "category": "string",
+    "title": "Suffix Tree",
+    "difficulty": "Medium",
+    "path": "string/suffix_tree"
+  },
+  {
+    "slug": "z_algorithm",
+    "category": "string",
+    "title": "Z Algorithm",
+    "difficulty": "Medium",
+    "path": "string/z_algorithm"
+  }
+]

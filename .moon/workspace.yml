@@ -1,0 +1,12 @@
+# https://moonrepo.dev/docs/config/workspace
+$schema: 'https://moonrepo.dev/schemas/workspace.json'
+
+projects:
+  sources:
+    root: '.'
+    problems: 'problems/*'
+
+vcs:
+  manager: 'git'
+  defaultBranch: 'main'
+

@@ -1,0 +1,107 @@
+/// Iteratively sums the digits of a signed integer
+///
+/// ## Arguments
+///
+/// * `num` - The number to sum the digits of
+///
+/// ## Examples
+///
+/// ```
+/// use the_algorithms_rust::math::sum_digits_iterative;
+///
+/// assert_eq!(10, sum_digits_iterative(1234));
+/// assert_eq!(12, sum_digits_iterative(-246));
+/// ```
+pub fn sum_digits_iterative(num: i32) -> u32 {
+    // =========================================================================
+    // 🎯 YOUR MISSION: IMPLEMENT THIS METHOD (sum_digits_iterative)!
+    // Follow the Socratic hints and questions in the comments above.
+    // =========================================================================
+    todo!("Implement sum_digits_iterative");
+}
+
+/// Recursively sums the digits of a signed integer
+///
+/// ## Arguments
+///
+/// * `num` - The number to sum the digits of
+///
+/// ## Examples
+///
+/// ```
+/// use the_algorithms_rust::math::sum_digits_recursive;
+///
+/// assert_eq!(10, sum_digits_recursive(1234));
+/// assert_eq!(12, sum_digits_recursive(-246));
+/// ```
+pub fn sum_digits_recursive(num: i32) -> u32 {
+    // =========================================================================
+    // 🎯 YOUR MISSION: IMPLEMENT THIS METHOD (sum_digits_recursive)!
+    // Follow the Socratic hints and questions in the comments above.
+    // =========================================================================
+    todo!("Implement sum_digits_recursive");
+}
+
+
+#[cfg(test)]
+mod tests {
+    mod iterative {
+        // import relevant sum_digits function
+        use super::super::sum_digits_iterative as sum_digits;
+
+        #[test]
+        fn zero() {
+            assert_eq!(0, sum_digits(0));
+        }
+        #[test]
+        fn positive_number() {
+            assert_eq!(1, sum_digits(1));
+            assert_eq!(10, sum_digits(1234));
+            assert_eq!(14, sum_digits(42161));
+            assert_eq!(6, sum_digits(500010));
+        }
+        #[test]
+        fn negative_number() {
+            assert_eq!(1, sum_digits(-1));
+            assert_eq!(12, sum_digits(-246));
+            assert_eq!(2, sum_digits(-11));
+            assert_eq!(14, sum_digits(-42161));
+            assert_eq!(6, sum_digits(-500010));
+        }
+        #[test]
+        fn trailing_zeros() {
+            assert_eq!(1, sum_digits(1000000000));
+            assert_eq!(3, sum_digits(300));
+        }
+    }
+
+    mod recursive {
+        // import relevant sum_digits function
+        use super::super::sum_digits_recursive as sum_digits;
+
+        #[test]
+        fn zero() {
+            assert_eq!(0, sum_digits(0));
+        }
+        #[test]
+        fn positive_number() {
+            assert_eq!(1, sum_digits(1));
+            assert_eq!(10, sum_digits(1234));
+            assert_eq!(14, sum_digits(42161));
+            assert_eq!(6, sum_digits(500010));
+        }
+        #[test]
+        fn negative_number() {
+            assert_eq!(1, sum_digits(-1));
+            assert_eq!(12, sum_digits(-246));
+            assert_eq!(2, sum_digits(-11));
+            assert_eq!(14, sum_digits(-42161));
+            assert_eq!(6, sum_digits(-500010));
+        }
+        #[test]
+        fn trailing_zeros() {
+            assert_eq!(1, sum_digits(1000000000));
+            assert_eq!(3, sum_digits(300));
+        }
+    }
+}

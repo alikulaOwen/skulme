@@ -1,0 +1,23 @@
+# https://moonrepo.dev/docs/config/tasks
+$schema: 'https://moonrepo.dev/schemas/tasks.json'
+
+tasks:
+  test-rust:
+    command: 'cargo test --lib $TARGET'
+    local: true
+
+  test-java:
+    command: 'java Solution.java'
+    local: true
+
+  test-py:
+    command: 'python3 solution.py'
+    local: true
+
+  test-ts:
+    command: 'deno run solution.ts'
+    local: true
+
+  seed-db:
+    command: 'python3 scripts/export_db_seed.py'
+    local: true

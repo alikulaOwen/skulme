@@ -1,8 +1,12 @@
 [package]
-name = "the_algorithms_rust"
+name = "skulme"
 version = "0.1.0"
 edition = "2021"
-authors = ["Anshul Malik <malikanshul29@gmail.com>"]
+authors = ["Anshul Malik <malikanshul29@gmail.com>", "alikulaOwen"]
+
+[lib]
+name = "skulme"
+path = "problems/lib.rs"
 
 [dependencies]
 nalgebra = "0.35.0"

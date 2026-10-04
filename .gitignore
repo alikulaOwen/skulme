@@ -1,9 +1,10 @@
-
-/target
-**/*.rs.bk
-
 /target
 **/*.rs.bk
 Cargo.lock
-/.idea/
+.idea/
+*.iml
 .vscode
+out/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,81 @@
+/// Least Square Approximation <p>
+/// Function that returns a polynomial which very closely passes through the given points (in 2D)
+///
+/// The result is made of coeficients, in descending order (from x^degree to free term)
+///
+/// Parameters:
+///
+/// points -> coordinates of given points
+///
+/// degree -> degree of the polynomial
+///
+pub fn least_square_approx<T: Into<f64> + Copy, U: Into<f64> + Copy>(
+    points: &[(T, U)],
+    degree: i32,
+) -> Option<Vec<f64>> {
+    // =========================================================================
+    // 🎯 YOUR MISSION: IMPLEMENT THIS METHOD (least_square_approx)!
+    // Follow the Socratic hints and questions in the comments above.
+    // =========================================================================
+    todo!("Implement least_square_approx");
+}
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn ten_points_1st_degree() {
+        let points = vec![
+            (5.3, 7.8),
+            (4.9, 8.1),
+            (6.1, 6.9),
+            (4.7, 8.3),
+            (6.5, 7.7),
+            (5.6, 7.0),
+            (5.8, 8.2),
+            (4.5, 8.0),
+            (6.3, 7.2),
+            (5.1, 8.4),
+        ];
+
+        assert_eq!(
+            least_square_approx(&points, 1),
+            Some(vec![-0.49069, 10.44898])
+        );
+    }
+
+    #[test]
+    fn eight_points_5th_degree() {
+        let points = vec![
+            (4f64, 8f64),
+            (8f64, 2f64),
+            (1f64, 7f64),
+            (10f64, 3f64),
+            (11.0, 0.0),
+            (7.0, 3.0),
+            (10.0, 1.0),
+            (13.0, 13.0),
+        ];
+
+        assert_eq!(
+            least_square_approx(&points, 5),
+            Some(vec![
+                0.00603, -0.21304, 2.79929, -16.53468, 40.29473, -19.35771
+            ])
+        );
+    }
+
+    #[test]
+    fn four_points_2nd_degree() {
+        let points = vec![
+            (2.312, 8.345344),
+            (-2.312, 8.345344),
+            (-0.7051, 3.49716601),
+            (0.7051, 3.49716601),
+        ];
+
+        assert_eq!(least_square_approx(&points, 2), Some(vec![1.0, 0.0, 3.0]));
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/average_margin_ranking_loss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hinge_loss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/huber_loss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kl_divergence_loss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mean_absolute_error_loss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mean_squared_error_loss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/negative_log_likelihood" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

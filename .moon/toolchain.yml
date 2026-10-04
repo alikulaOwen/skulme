@@ -1,0 +1,11 @@
+# https://moonrepo.dev/docs/config/toolchain
+$schema: 'https://moonrepo.dev/schemas/toolchain.json'
+
+rust:
+  version: '1.80.0'
+
+deno:
+  version: '2.0.0'
+
+python:
+  version: '3.11.0'
