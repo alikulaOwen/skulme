@@ -1,3 +1,5 @@
+> 💡 **Interview Prep:** Looking for Java/Python/TS practice workspaces? See [`PRACTICE.md`](./PRACTICE.md) for all 36 problems.
+
 ## Sort Algorithms
 
 ### [Bogo-sort](./bogo_sort.rs)

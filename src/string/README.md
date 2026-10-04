@@ -1,3 +1,5 @@
+> 💡 **Interview Prep:** Looking for Java/Python/TS practice workspaces? See [`PRACTICE.md`](./PRACTICE.md) for all 24 problems.
+
 ## String Algorithms
 
 ### [Aho-Corasick Algorithm](./aho_corasick.rs)

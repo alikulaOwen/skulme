@@ -1,0 +1,70 @@
+# Saddleback Search
+
+**Category:** `searching` | **Language Track:** Java (Interview Focus), Rust, Python, TypeScript
+
+---
+
+## Problem Statement
+
+Saddleback search is a technique used to find an element in a sorted 2D matrix in O(m + n) time,
+where m is the number of rows, and n is the number of columns. It works by starting from the
+top-right corner of the matrix and moving left or down based on the comparison of the current
+element with the target element.
+
+### Original Rust Signatures
+```rust
+pub fn saddleback_search(matrix: &[Vec<i32>], element: i32) -> (usize, usize);
+```
+
+### Complexity
+- **Time Complexity:** `O(N)`
+- **Space Complexity:** `O(1)`
+
+---
+
+## Java Interview Strategy & Tips
+
+- In Binary Search, ALWAYS calculate midpoint using `int mid = left + (right - left) / 2;` to avoid 32-bit integer overflow.
+- Check loop invariants: `while (left <= right)` when `right = n - 1` vs `while (left < right)` when `right = n`.
+- Java provides `Arrays.binarySearch()`, which returns `-(insertion_point + 1)` if the key is not present.
+
+### Rust vs. Java Perspective
+- Rust's `slice::binary_search()` returns `Result<usize, usize>` (`Ok(index)` or `Err(insert_index)`).
+- Java returns a primitive `int`, encoding not-found as a negative integer.
+- **Reference Implementation:** Compare your Java solution with the original Rust code in [`saddleback_search.rs`](../../../src/searching/saddleback_search.rs).
+
+---
+
+## How to Spin & Run
+
+### 1. Java (Target Interview Language)
+Run directly as a single-file application with built-in tests:
+```bash
+java Solution.java
+```
+
+### 2. Rust (Original Ground Truth Answer)
+Run the crate unit tests for this module from the repository root:
+```bash
+cargo test --lib searching::saddleback_search
+```
+
+### 3. Python (Rapid Prototyping)
+```bash
+python3 solution.py
+```
+
+### 4. TypeScript (Industry Standard)
+```bash
+bun solution.ts
+# or using Deno:
+deno run solution.ts
+```
+
+---
+
+## Self-Evaluation Checklist
+- [ ] Understand the problem constraints and edge cases (e.g. empty input, bounds, duplicates).
+- [ ] Implement the optimal solution in `Solution.java`.
+- [ ] Verify correctness using `java Solution.java`.
+- [ ] Contrast time/space complexity and idiomatic differences with the Rust source in [`saddleback_search.rs`](../../../src/searching/saddleback_search.rs).

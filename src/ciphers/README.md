@@ -1,3 +1,5 @@
+> 💡 **Interview Prep:** Looking for Java/Python/TS practice workspaces? See [`PRACTICE.md`](./PRACTICE.md) for all 27 problems.
+
 ## Ciphers
 
 ### [Caesar](./caesar.rs)

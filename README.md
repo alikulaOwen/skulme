@@ -28,5 +28,14 @@
 ### List of Algorithms
 See our [directory](DIRECTORY.md) for easier navigation and a better overview of the project.
 
+---
+
+### 🚀 Java SWE Interview Practice Workspace (Multi-Language Track)
+Preparing for a Java Software Engineer interview? We provide dedicated workspaces for **394 problems** equipped with single-file Java runners (`java Solution.java`), Python (`python3 solution.py`), TypeScript (`bun solution.ts`), and comparison with the Rust reference solution:
+- 📖 **[Java Interview Prep Handbook](JAVA_INTERVIEW_PREP.md)**: Mental model bridge from Rust/Python/TypeScript to Java, collections cheat sheet, and top pitfalls.
+- 📂 **[Browse Problems](problems/)**: 394 problem folders with problem statements and runnable test harnesses.
+- ⚡ **Interactive CLI**: Run tests quickly with `python3 practice.py run <category/problem> <java|py|ts|rust>`.
+
+
 ### Contributing
 Read through our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.

@@ -1,0 +1,10 @@
+function missingNumber(nums: number[]): number {
+    let xor = nums.length;
+    for (let i = 0; i < nums.length; i++) {
+        xor ^= i ^ nums[i];
+    }
+    return xor;
+}
+
+if (missingNumber([3, 0, 1]) !== 2) throw new Error("Failed");
+console.log("[PASS] TypeScript Missing Number passed!");
