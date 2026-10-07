@@ -5,6 +5,7 @@ projects:
   sources:
     root: '.'
     problems: 'problems/*'
+    crates: 'crates/*'
 
 vcs:
   manager: 'git'

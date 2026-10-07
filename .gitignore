@@ -2,9 +2,10 @@
 **/*.rs.bk
 Cargo.lock
 .idea/
+**/.idea/
 *.iml
-.vscode
+.vscode/
 out/
 __pycache__/
+**/__pycache__/
 *.pyc
-.DS_Store

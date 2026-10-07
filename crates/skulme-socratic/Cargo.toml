@@ -1,0 +1,19 @@
+[package]
+name = "skulme-socratic"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+skulme-core = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+blake3 = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+async-nats = { workspace = true }
+async-trait = { workspace = true }
+tree-sitter = "0.25"
+tree-sitter-rust = "0.24"
