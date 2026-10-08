@@ -8,6 +8,7 @@ use axum::{
 };
 use serde::{Deserialize, Serialize};
 use tower_http::cors::{Any, CorsLayer};
+use tower_http::services::ServeDir;
 use tracing::{info, Level};
 use tracing_subscriber::FmtSubscriber;
 
@@ -236,6 +237,12 @@ async fn main() -> anyhow::Result<()> {
         .allow_methods(Any)
         .allow_headers(Any);
 
+    let web_dist_path = if std::path::Path::new("crates/skulme-web/dist").exists() {
+        "crates/skulme-web/dist"
+    } else {
+        "crates/skulme-web"
+    };
+
     let app = Router::new()
         .route("/health", get(health_check))
         .route("/api/v1/sync", post(sync_repository))
@@ -243,6 +250,7 @@ async fn main() -> anyhow::Result<()> {
         .route("/api/v1/problems/{slug}", get(get_problem))
         .route("/api/v1/sandbox/execute", post(execute_code))
         .route("/ws/session/{session_id}", get(ws_session_handler))
+        .fallback_service(ServeDir::new(web_dist_path))
         .layer(cors)
         .with_state(state);
 
@@ -299,5 +307,19 @@ mod tests {
         assert!(response.0.passed);
         assert!(response.0.signature_verified);
         assert!(response.0.stdout.contains("PYTHON_API_TEST_OK"));
+    }
+
+    #[tokio::test]
+    async fn test_static_web_serving() {
+        let manifest_dir = std::path::PathBuf::from(env!("CARGO_MANIFEST_DIR"));
+        let candidates = [
+            manifest_dir.join("../skulme-web/index.html"),
+            std::path::PathBuf::from("crates/skulme-web/index.html"),
+        ];
+        let found = candidates.iter().find(|p| p.exists());
+        assert!(found.is_some(), "Web index.html should exist for static serving");
+        let content = std::fs::read_to_string(found.unwrap()).unwrap();
+        assert!(content.contains("Skul.me - Algorithm Learning Platform"));
+        assert!(content.contains("data-trunk"));
     }
 }

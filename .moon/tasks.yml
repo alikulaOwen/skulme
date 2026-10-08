@@ -2,6 +2,18 @@
 $schema: 'https://moonrepo.dev/schemas/tasks.json'
 
 tasks:
+  dev-api:
+    command: 'cargo run -p skulme-api --offline'
+    local: true
+
+  sync-db:
+    command: 'cargo run -p skulme-ingestion --bin skulme_import --offline -- .'
+    local: true
+
+  test-platform:
+    command: 'cargo test --offline -p skulme-core -p skulme-db -p skulme-sandbox -p skulme-ingestion -p skulme-socratic -p skulme-api -p skulme-web'
+    local: true
+
   test-rust:
     command: 'cargo test --lib $TARGET'
     local: true
@@ -16,8 +28,4 @@ tasks:
 
   test-ts:
     command: 'deno run solution.ts'
-    local: true
-
-  seed-db:
-    command: 'python3 scripts/export_db_seed.py'
     local: true

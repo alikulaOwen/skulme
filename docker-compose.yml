@@ -34,6 +34,24 @@ services:
       timeout: 3s
       retries: 5
 
+  skulme-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: skulme-api
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - SURREALDB_URL=ws://surrealdb:8000
+      - NATS_URL=nats://nats:4222
+      - RUST_LOG=info
+    depends_on:
+      surrealdb:
+        condition: service_healthy
+      nats:
+        condition: service_healthy
+
 volumes:
   surreal_data:
     driver: local
