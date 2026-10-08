@@ -22,3 +22,6 @@ tree-sitter-java = "0.23"
 tree-sitter-cpp = "0.23"
 tree-sitter-go = "0.23"
 tree-sitter-typescript = "0.23"
+anyhow = { workspace = true }
+tracing-subscriber = { workspace = true }
+

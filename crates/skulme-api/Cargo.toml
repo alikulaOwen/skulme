@@ -8,6 +8,7 @@ license.workspace = true
 [dependencies]
 skulme-core = { workspace = true }
 skulme-db = { workspace = true }
+skulme-ingestion = { workspace = true }
 skulme-sandbox = { workspace = true }
 skulme-socratic = { workspace = true }
 axum = { workspace = true }

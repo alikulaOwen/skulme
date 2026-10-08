@@ -67,4 +67,27 @@ mod tests {
         let db = SkulmeDb::connect_memory().await.expect("Failed to connect to in-memory SurrealDB");
         db.migrate().await.expect("Failed to execute SurrealDB schema migrations");
     }
+
+    #[tokio::test]
+    async fn test_create_and_query_concept() {
+        let db = SkulmeDb::connect_memory().await.expect("Failed to connect");
+        db.migrate().await.expect("Failed to migrate");
+
+        let query_str = format!(
+            "CREATE type::thing('concept', $slug) SET slug = $slug, title = $title, category = $category, description = $desc, status = 'published';
+             CREATE type::thing('implementation', $impl_id) SET language = 'rust', source_code = 'fn main(){{}}', ast_hash = 'h1', commit_sha = 'c1', original_authors = ['test'], keywords = ['k1'], license_spdx = 'MIT', origin_repo = 'repo:rust', origin_path = 'src/test.rs';
+             RELATE implementation:binary_search_rust->IMPLEMENTS->concept:binary_search;"
+        );
+        let mut res = db.raw().query(&query_str)
+        .bind(("slug", "binary_search"))
+        .bind(("title", "Binary Search"))
+        .bind(("category", "searching"))
+        .bind(("desc", "Search algorithm"))
+        .bind(("impl_id", "binary_search_rust"))
+        .await
+        .expect("Failed to create concept and implementation");
+
+        let errors = res.take_errors();
+        assert!(errors.is_empty(), "SurrealDB query errors: {:?}", errors);
+    }
 }

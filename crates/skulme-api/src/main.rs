@@ -195,6 +195,17 @@ async fn get_problem(
         .ok_or((axum::http::StatusCode::NOT_FOUND, format!("Problem '{slug}' not found")))
 }
 
+async fn sync_repository(
+    State(state): State<AppState>,
+) -> Result<Json<skulme_ingestion::IngestionStats>, (axum::http::StatusCode, String)> {
+    let importer = skulme_ingestion::DynamicRepoImporter::new();
+    let stats = importer
+        .import_repository(&state.db, std::path::Path::new("."))
+        .await
+        .map_err(|e| (axum::http::StatusCode::INTERNAL_SERVER_ERROR, e.to_string()))?;
+    Ok(Json(stats))
+}
+
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
     let subscriber = FmtSubscriber::builder()
@@ -205,6 +216,15 @@ async fn main() -> anyhow::Result<()> {
     let db = SkulmeDb::connect_memory().await?;
     db.migrate().await?;
     info!("SurrealDB memory schema and permissions migrated successfully");
+
+    // Dynamically ingest problems from the repository
+    let importer = skulme_ingestion::DynamicRepoImporter::new();
+    if let Ok(stats) = importer.import_repository(&db, std::path::Path::new(".")).await {
+        info!(
+            "Dynamically ingested {} concepts and {} implementations into SurrealDB in {} ms",
+            stats.concepts_imported, stats.implementations_imported, stats.duration_ms
+        );
+    }
 
     let supervisor = Arc::new(SupervisorSandbox::new("runner_local_supervisor".to_string()));
     info!("Supervisor initialized with verifying key: {}", supervisor.public_key_hex());
@@ -218,6 +238,7 @@ async fn main() -> anyhow::Result<()> {
 
     let app = Router::new()
         .route("/health", get(health_check))
+        .route("/api/v1/sync", post(sync_repository))
         .route("/api/v1/problems", get(list_problems))
         .route("/api/v1/problems/{slug}", get(get_problem))
         .route("/api/v1/sandbox/execute", post(execute_code))
